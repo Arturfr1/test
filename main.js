@@ -17,10 +17,10 @@ function getNavbarPath() {
     segments[segments.length - 1] === "code"
   ) {
     // If it is, navbar.html is in the same directory
-    return isLocalhost ? "navbar.html" : "/portfolio/navbar.html";
+    return isLocalhost ? "navbar.html" : "/test/navbar.html";
   } else {
     // If it's not, navbar.html is in the parent directory
-    return isLocalhost ? "navbar.html" : "/portfolio/navbar.html";
+    return isLocalhost ? "navbar.html" : "/test/navbar.html";
   }
 }
 
@@ -68,29 +68,29 @@ fetch(getNavbarPath())
       // If it is, set the hrefs for the navbar links
       setNavbarLinkHref(
         "homeLink",
-        isLocalhost ? "index.html" : "/portfolio/index.html"
+        isLocalhost ? "index.html" : "/test/index.html"
       );
       setNavbarLinkHref(
         "projectsLink",
-        isLocalhost ? "projects.html" : "/portfolio/projects.html"
+        isLocalhost ? "projects.html" : "/test/projects.html"
       );
       setNavbarLinkHref(
         "contactLink",
-        isLocalhost ? "contact.html" : "/portfolio/contact.html"
+        isLocalhost ? "contact.html" : "/test/contact.html"
       );
     } else {
       // If it's not, set the hrefs for the navbar links
       setNavbarLinkHref(
         "homeLink",
-        isLocalhost ? "index.html" : "/portfolio/index.html"
+        isLocalhost ? "index.html" : "/test/index.html"
       );
       setNavbarLinkHref(
         "projectsLink",
-        isLocalhost ? "projects.html" : "/portfolio/projects.html"
+        isLocalhost ? "projects.html" : "/test/projects.html"
       );
       setNavbarLinkHref(
         "contactLink",
-        isLocalhost ? "contact.html" : "/portfolio/contact.html"
+        isLocalhost ? "contact.html" : "/test/contact.html"
       );
     }
 
