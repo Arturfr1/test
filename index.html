@@ -3,51 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artur Ciechanowski</title>
+    <title>Artur Ciechanowski - Portfolio</title>
     <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/b44f26098c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
-      <!-- Logo -->
-      <a href="" class="logo">Artur C.</a>
+    <div class="navbar border">
+      <div class="header">
+        <a href="" class="logo">Artur C.</a>
 
-      <!-- Navbar -->
-      <div id="navbar"></div>
-    </header>
-
-    <!-- Main -->
-    <div class="tilt-top">
-      <svg
-        data-name="Layer 1"
-        xmlns="../img/tilt(1).svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="shape-fill"
-        ></path>
-      </svg>
+        <div class="nav">
+          <a href="#about"><i class="fa-regular fa-user fa-anim"></i>About</a>
+          <a href="#projects"
+            ><i class="fa-regular fa-folder fa-anim"></i>Projects</a
+          >
+          <a href="#contact"
+            ><i class="fa-regular fa-envelope fa-anim"></i>Contact</a
+          >
+        </div>
+      </div>
     </div>
-
-    <section class="section section-1">
-      <h1>Artur - Software Developer</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam</p>
-    </section>
-
-    <div class="tilt-bottom">
-      <svg
-        data-name="Layer 1"
-        xmlns="../img/tilt.svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="shape-fill"
-        ></path>
-      </svg>
+    <div class="box border">
+      <div class="content">
+        <h1>
+          <i class="fa-solid fa-hand"></i>Hi! I'm Artur Ciechanowski, I'm a...
+        </h1>
+        <p class="main-text">SoftWare Developer</p>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="content aboutme">
+        <img src="dwizzy.png" class="pic" />
+        <p>
+          I'm a Software Developer with a passion for creating and developing
+          software. I have experience in developing web applications using
+          technologies such as HTML, CSS, JavaScript, React, Node.js, and
+          Express. <br /><br />
+          I am constantly seeking opportunities to learn new technologies and
+          enhance my skills. <br /><br />
+          My passion for coding is fueled by the joy I find in solving complex
+          problems and the satisfaction that comes with developing functional
+          and user-friendly applications.
+        </p>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <div class="content project">
+        <h1>Project 1</h1>
+        <p>
+          Project 1 is a dynamic web application designed to streamline the
+          process of task management. Built with a focus on user experience, the
+          application allows users to create, update, and organize tasks in a
+          visually intuitive interface. The backend is powered by Node.js and
+          Express, providing a robust API for task operations.
+        </p>
+        <img src="code.png">
+      </div>
     </div>
     <script src="main.js"></script>
   </body>
