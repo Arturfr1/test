@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="main.css" />
     <script
       src="https://kit.fontawesome.com/b44f26098c.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="navbar border">
       <div class="header">
-        <a href="" class="logo">Artur C.</a>
+        <div class="logo-container">
+          <a href="" class="logo">Artur C.</a>
+        </div>
 
         <div class="nav">
           <a href="#about"><i class="fa-regular fa-user fa-anim"></i>About</a>
@@ -34,8 +35,8 @@
         <p class="main-text">SoftWare Developer</p>
       </div>
     </div>
-    <div class="about" id="about">
-      <div class="content aboutme">
+    <div class="about">
+      <div class="content aboutme" id="about">
         <img src="dwizzy.png" class="pic" />
         <p>
           I'm a Software Developer with a passion for creating and developing
@@ -50,8 +51,8 @@
         </p>
       </div>
     </div>
-    <div class="projects" id="projects">
-      <div class="content project">
+    <div class="projects">
+      <div class="content project" id="projects">
         <h1>Project 1</h1>
         <p>
           Project 1 is a dynamic web application designed to streamline the
@@ -60,9 +61,32 @@
           visually intuitive interface. The backend is powered by Node.js and
           Express, providing a robust API for task operations.
         </p>
-        <img src="code.png">
+        <img src="test-project.jpg" />
+      </div>
+      <div class="content project1">
+        <h1>Project 2</h1>
+        <p>
+          Project 2 is an interactive web application that simplifies the
+          process of event planning. It offers a user-friendly interface where
+          users can schedule, manage, and track events. The application
+          integrates a calendar feature for easy date selection and event
+          visualization. It's built using React for the frontend, ensuring a
+          responsive and dynamic user experience, while the backend leverages
+          Node.js and Express for efficient data handling and server-side
+          operations.
+        </p>
+        <img src="test-project.jpg" />
       </div>
     </div>
+
+    <footer class="footer" id="contact">
+      <h1 class="hire">Wanna hire me?</h1>
+      <p class="email">Email:</p>
+      <p class="mail" href="mailto:artur@email.com">artur@email.com</p>
+      <p class="ac24">Artur Ciechanowski @ 2024</p>
+      <button class="btn">Contact Me</button>
+    </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
