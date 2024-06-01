@@ -10,6 +10,7 @@
 }
 
 /* Everything */
+
 * {
   padding: 0;
   margin: 0;
@@ -38,7 +39,7 @@ body {
   background: var(--main);
   border-radius: 15px;
   width: 1536px;
-  height: 151px;
+  height: 111px;
   margin-top: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -120,11 +121,10 @@ body {
 .box {
   position: absolute;
   background: var(--main);
-  /* background: #f1f1f1; */
   border-radius: 15px;
   width: 1536px;
-  height: 810px;
-  margin-top: 231px;
+  height: 630px;
+  margin-top: 191px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -160,7 +160,7 @@ body {
   background: var(--bg);
   height: 864px;
   width: 1536px;
-  margin-top: 1081px;
+  margin-top: 1001px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -257,7 +257,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 2295px;
-
   overflow: hidden;
   transition: background ease-in-out 0.2s;
 }
@@ -292,7 +291,7 @@ body {
   width: 1536px;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2645px;
+  margin-top: 2685px;
 }
 
 .hire {
